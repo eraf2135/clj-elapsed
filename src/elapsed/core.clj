@@ -1,4 +1,4 @@
-(ns elaspsed.core
+(ns elapsed.core
   (:require [clojure.string :as s]))
 
 (defn- ->int [i]

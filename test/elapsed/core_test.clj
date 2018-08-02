@@ -1,6 +1,6 @@
-(ns elaspsed.core-test
+(ns elapsed.core-test
   (:require [clojure.test :refer :all]
-            [elaspsed.core :refer :all]))
+            [elapsed.core :refer :all]))
 
 (deftest elapsed-test
   (testing "only seconds diff"
