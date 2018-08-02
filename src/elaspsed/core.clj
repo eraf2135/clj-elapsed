@@ -82,5 +82,3 @@
        (days->secs (- to-day from-day))
        (months->secs from-month to-month)
        (years->secs from-year from-month to-year to-month))))
-
-;todo: read input from std in
