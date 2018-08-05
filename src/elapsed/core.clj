@@ -42,8 +42,7 @@
 
 (defn leap-year-adj-days [from-year from-month to-year to-month]
   (let [num-leap-years-excl-boundaries (->> (range (inc from-year) to-year)
-                                            (map leap-year?)
-                                            (filter true?)
+                                            (filter leap-year?)
                                             count)
         from-boundary-leap-year-adj (if (and (leap-year? from-year)
                                              (<= from-month 2)
